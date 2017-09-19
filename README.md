@@ -128,14 +128,31 @@ and will be included in the build.
 # Project Documention
 
 ### Commands For installing right version of node (node -v)
-`sudo apt-get update  <br/>
-sudo apt-get install build-essential libssl-dev  <br/>
-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh  <br/>
-source ~/.profile  <br/>
-nvm ls-remote (for listing version)  \r\n
-nvm install 6.11.2  <br/>
-nvm use 6.11.2  <br/>
-nvm alias default 6.11.2`  <br/>
+`sudo apt-get update 
+
+
+sudo apt-get install build-essential libssl-dev  
+
+
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh  
+
+
+source ~/.profile 
+
+
+nvm ls-remote (for listing version) 
+
+
+nvm install 6.11.2 
+
+
+nvm use 6.11.2
+
+
+nvm alias default 6.11.2`
+
+
+
 
 
 ### Commands For installing right version of nodejs (nodejs -v)
