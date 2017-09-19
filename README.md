@@ -152,9 +152,6 @@ and will be included in the build.
 `nvm alias default 6.11.2`
 
 
-
-
-
 ### Commands For installing right version of nodejs (nodejs -v)
 `curl -sL https://deb.nodesource.com/setup_0.12 | sudo -E bash -`
 

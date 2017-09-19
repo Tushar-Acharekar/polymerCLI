@@ -1,0 +1,25 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-toast/paper-toast.html">
+<dom-module id="tyser-paper-toast">
+  <template>
+    <style>
+		:host paper-toast{
+		 display:flex;
+		 justify-content: center;
+		 word-break: keep-all;
+		 margin:10px;
+		
+			position:fixed ! important;
+			padding: 14px;
+		}
+    </style>
+	
+    <paper-toast></paper-toast>
+  </template>
+  <script>
+    Polymer({
+      is: 'tyser-paper-toast'
+
+    });
+  </script>
+</dom-module>
