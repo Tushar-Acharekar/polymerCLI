@@ -137,13 +137,16 @@ nvm install 6.11.2
 nvm use 6.11.2
 nvm alias default 6.11.2
 
+
 ### Commands For installing right version of nodejs (nodejs -v)
 curl -sL https://deb.nodesource.com/setup_0.12 | sudo -E bash -
 sudo apt-get install -y nodejs
 
+
 ### Command to install Polymer CLI & starter kit 2
 npm install -g polymer-cli
 polymer init polymer-2-starter-kit
+
 
 ### Command to install web-animations-js
 bower install --save web-animations-js
