@@ -123,3 +123,27 @@ application. Each new demand-loaded fragment should be added to the list of
 `fragments` in the included `polymer.json` file. This will ensure those
 components and their dependencies are added to the list of pre-cached components
 and will be included in the build.
+
+
+# Project Documention
+
+### Commands For installing right version of node (node -v)
+sudo apt-get update
+sudo apt-get install build-essential libssl-dev
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh
+source ~/.profile
+nvm ls-remote (for listing version)
+nvm install 6.11.2
+nvm use 6.11.2
+nvm alias default 6.11.2
+
+### Commands For installing right version of nodejs (nodejs -v)
+curl -sL https://deb.nodesource.com/setup_0.12 | sudo -E bash -
+sudo apt-get install -y nodejs
+
+### Command to install Polymer CLI & starter kit 2
+npm install -g polymer-cli
+polymer init polymer-2-starter-kit
+
+### Command to install web-animations-js
+bower install --save web-animations-js
